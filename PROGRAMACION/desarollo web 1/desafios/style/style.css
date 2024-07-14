@@ -1,0 +1,103 @@
+body{
+    background-image: url(../img/Bosque_1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img2{
+    height: 40%;
+    width: 40%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+    text-align: center;
+}
+
+#blanco{
+    background-color: rgba(255, 255, 255, 0.349);
+    position: absolute;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+#div{
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+.box{
+    background-color: rgb(200, 210, 255);
+    border-radius: 7px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#int{
+    background-color: rgb(153, 172, 255);
+    font-size: 90%; 
+    color: rgb(83, 83, 83);
+    margin: 1%;
+}
+
+.h2{
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box ul li h4{
+    margin-top: -2%;
+}
+
+.div{
+    margin-top: -2%;
+    width: 70%;
+    display: table-cell;
+}
+
+.div img{
+    position: absolute;
+    margin-left: 2%;
+}
+
+#iframe{
+    background-color: rgb(200, 210, 255);
+    border-radius: 7px;
+    padding: 1%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.resaltado{
+    background-color: rgb(158, 175, 255);
+    border-radius: 5px;
+    padding: 0.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#w{
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 0.3%;
+}
+
+.box a{
+    display: block;
+}
+
+.titles{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,162 @@
+#titulo {
+  text-align: center;
+  text-shadow: 1px 1px 10px #005DFF;
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+#fondo {
+  background-image: url(../img/fondo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  font-size: -10px;
+}
+
+/* COLUMNAS */
+.caja {
+  padding: 10px;
+  display: table-cell;
+  color: #ffffff;
+  text-shadow: -1px 1px 7px #000000;
+}
+
+.contenedor {
+  width: 48%;
+  margin: auto;
+  margin-top: 20px;
+  border: 5px solid #000000;
+}
+
+#abajo {
+  width: 100%;
+  background-color: #3D3D3D;
+  color: #ACACAC;
+  text-align: center;
+  text-decoration: none;
+}
+
+#foto {
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #000000;
+  border-radius: 40px;
+}
+
+#oscurecimiento-programador {
+  height: 27px;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+#ingles {
+  background-color: #FF00E0;
+  width: 35%;
+  height: 16px;
+  border-radius: 1px;
+}
+
+.progress-bar {
+  background-color: #000000;
+  height: 25px;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.progress-bar span {
+  display: inline-block;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+  transition: width .4s ease-in-out;
+}
+
+li {
+  color: #000000;
+  margin-bottom: -10px;
+}
+
+p {
+  color: #ffffff;
+}
+
+a:hover {
+  transition: 0.1s;
+  opacity: 0.6;
+}
+
+a {
+  transition: 0.1s;
+}
+
+.contenedor:hover {
+  transition: 0.3s;
+  box-shadow: -15px 15px 20px #ffffff;
+}
+
+.contenedor {
+  transition: 0.3s;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+}
+
+.shine span {
+  position: relative;
+}
+
+.shine span::after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 3px;
+  animation: animate-shine 2s ease-out infinite;
+}
+
+@keyframes animate-shine {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+  100% {
+    opacity: 0;
+    width: 95%;
+  }
+}
+
+#foto2 {
+  width: 100%;
+  height: 100%;
+}
+
+.a{
+  text-decoration: none;
+  color: #ACACAC;
+}
+
+.a:hover{
+  transition: 0.1s;
+  opacity: 0.6;
+  color: #ACACAC;
+}

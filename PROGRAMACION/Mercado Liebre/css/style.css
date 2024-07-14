@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+#header{
+    background-color: #fbbc02;
+    height: 120px;
+    padding: 1.5% 3.5% 1.5% 3.5%;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+img{
+    height: 11hw;
+    width: 11vw;
+}
+
+#a{
+    right: 0;
+    top: 0;
+    margin-right: 2%;
+    margin-top: 1%;
+    position: absolute;
+}
+
+#b{
+    margin-top: 2%;
+}
+
+#c{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    display: inline;
+}
+
+#d{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    display: inline;
+}
+
+#a :hover{
+    color: #585858 !important;
+}
+
+#b :hover{
+    color: #585858 !important;
+}
+
+#c :hover{
+    color: #585858 !important;
+}
+
+#d :hover{
+    color: #585858 !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+.item{
+    flex: 1;
+    border: #b3b3b3 1px solid;
+    padding: 1%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    margin: 0.5%;
+    position: relative;
+    text-align: center;
+}
+
+.productos{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.item h3{
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.img{
+    width: 100%;
+}
+
+.h2{
+    text-align: center;
+}
+
+#banner{
+    margin-bottom: 1.5%;
+}
+
+#galaxy{
+    height: 63vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#galaxyimg{
+    width: 88%;
+    margin-bottom: -10%;
+}
+
+#smart{
+    height: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#smartimg{
+    width: 88%;
+    margin-bottom: -10%;
+}
+
+.text{
+    position: absolute;
+    display: flex;
+    font-size: 110%;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0.5px 0.5px #ffffff ;
+}
+
+#galaxy:hover #galaxyimg{
+    opacity: 60%;
+}
+
+#smart:hover #smartimg{
+    opacity: 60%;
+}
